@@ -2,6 +2,7 @@
 HajjHackathon
 
 ## How to navigate this repo
+- [Master Branch](https://github.com/oalamoudi/F-074-Hajjed)
 - [Backend Branch](https://github.com/oalamoudi/F-074-Hajjed/tree/backend)
 - [IOS Application Branch](https://github.com/oalamoudi/F-074-Hajjed/tree/ios)
 - [Frontend Branch](https://github.com/oalamoudi/F-074-Hajjed/tree/frontend)
