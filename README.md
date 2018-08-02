@@ -2,8 +2,8 @@
 HajjHackathon
 
 ## How to navigate this repo
-- [Backend Branch](tree/hashed-backend)
-- [IOS Application Branch]()
+- [Backend Branch](https://github.com/oalamoudi/F-074-Hajjed/edit/master/README.mdtree/hashed-backend)
+- [IOS Application Branch](https://github.com/oalamoudi/F-074-Hajjed/tree/ios)
 - [Frontend Branch]()
 
 ## Inspiration
