@@ -12,24 +12,18 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func goToHajMode(_ sender: Any) {
+        let mapViewController = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Map1") as! MapViewController
+        let haji1 = Haji.init()
+        haji1.id = String.init(1)
+        let lat1 = 21.28891
+        let long1 = 39.8579;
+        haji1.location.longitude = long1
+        haji1.location.latitude = lat1
+        haji1.name = "عمر سعيد أحمد"
+        mapViewController.missed = [haji1]
+        self.navigationController?.pushViewController(mapViewController, animated: true)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

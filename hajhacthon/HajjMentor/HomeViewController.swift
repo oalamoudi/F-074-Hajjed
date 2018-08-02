@@ -30,6 +30,9 @@ class HomeViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDe
         let long = 39.8579;
         haji.location.longitude = long
         haji.location.latitude = lat
+        haji.name = " محمد أحمد"
+        haji.passportno = "رقم الجواز : A1248085"
+        haji.nationality = "مصري"
         missed.insert(haji, at: 0)
 
         let haji1 = Haji.init()
@@ -38,15 +41,20 @@ class HomeViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDe
         let long1 = 39.8579;
         haji1.location.longitude = long1
         haji1.location.latitude = lat1
+        haji1.name = "عمر سعيد أحمد"
+        haji1.passportno = "رقم الجواز : A1248085"
+        haji1.nationality = "سعودي"
         missed.insert(haji1, at: 1)
         while i < 10 {
             let haji = Haji.init()
             haji.id = String.init(i)
-            let lat = 21.3891 //+ (2.0*Double.init(i));
+            let lat = 21.3891 
             let long = 39.8579;
             haji.location.longitude = long
             haji.location.latitude = lat
-//            haji.location.longitude = CLLocationDegrees()
+            haji.name = " محمد أحمد"
+            haji.passportno = "رقم الجواز : A1248085"
+            haji.nationality = "مصري"
             missed.insert(haji, at: i)
             i = i + 1
         }
@@ -89,8 +97,7 @@ class HomeViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDe
             let locationq:CLLocationCoordinate2D = CLLocationCoordinate2DMake(lat, long)
             let annotation = MKPointAnnotation()
             annotation.coordinate = locationq
-            //annotation.title = title
-            //annotation.subtitle = location
+
             self.mapView.addAnnotation(annotation)
             i = i + 1
         }
@@ -100,4 +107,11 @@ class HomeViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDe
         region.span.latitudeDelta=1;
         self.mapView.setRegion(region, animated: true)
     }
+    
+    @IBAction func showGroups(_ sender: Any) {
+        let mapViewController = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "GroupViewController") as! GroupListViewControllerTableViewController
+        mapViewController.haijs = missed as! [Haji]
+        self.navigationController?.pushViewController(mapViewController, animated: true)
+    }
+    
 }

@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5914E9DE2113922500963EBD /* MotawafListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914E9DD2113922500963EBD /* MotawafListTableViewController.swift */; };
+		5914E9E0211393EA00963EBD /* Motwaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914E9DF211393EA00963EBD /* Motwaf.swift */; };
+		5914E9E32113AF1800963EBD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914E9E22113AF1800963EBD /* MainViewController.swift */; };
+		5914E9E62113B10C00963EBD /* MentorMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914E9E52113B10C00963EBD /* MentorMapViewController.swift */; };
 		594015272112A93900258A36 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594015262112A93900258A36 /* HomeViewController.swift */; };
 		594015292112A9F300258A36 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594015282112A9F300258A36 /* MapViewController.swift */; };
 		5940152B2112AEB200258A36 /* Haji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940152A2112AEB200258A36 /* Haji.swift */; };
+		5940152E2113648200258A36 /* GroupListViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940152D2113648200258A36 /* GroupListViewControllerTableViewController.swift */; };
 		596CD78C2111FFD900E4D9E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596CD78B2111FFD900E4D9E9 /* AppDelegate.swift */; };
 		596CD7932111FFDA00E4D9E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596CD7912111FFDA00E4D9E9 /* Main.storyboard */; };
 		596CD7952111FFDA00E4D9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596CD7942111FFDA00E4D9E9 /* Assets.xcassets */; };
@@ -17,9 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5914E9DD2113922500963EBD /* MotawafListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotawafListTableViewController.swift; sourceTree = "<group>"; };
+		5914E9DF211393EA00963EBD /* Motwaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motwaf.swift; sourceTree = "<group>"; };
+		5914E9E22113AF1800963EBD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5914E9E52113B10C00963EBD /* MentorMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorMapViewController.swift; sourceTree = "<group>"; };
 		594015262112A93900258A36 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		594015282112A9F300258A36 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5940152A2112AEB200258A36 /* Haji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haji.swift; sourceTree = "<group>"; };
+		5940152D2113648200258A36 /* GroupListViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewControllerTableViewController.swift; sourceTree = "<group>"; };
 		596CD7882111FFD900E4D9E9 /* hajhacthon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hajhacthon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		596CD78B2111FFD900E4D9E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		596CD7922111FFDA00E4D9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,11 +49,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5914E9DA2113911D00963EBD /* Management */ = {
+			isa = PBXGroup;
+			children = (
+				5914E9DD2113922500963EBD /* MotawafListTableViewController.swift */,
+				5914E9DF211393EA00963EBD /* Motwaf.swift */,
+			);
+			path = Management;
+			sourceTree = "<group>";
+		};
+		5914E9E42113B0DA00963EBD /* HajMode */ = {
+			isa = PBXGroup;
+			children = (
+				5914E9E52113B10C00963EBD /* MentorMapViewController.swift */,
+			);
+			path = HajMode;
+			sourceTree = "<group>";
+		};
 		5940152C21134F6500258A36 /* HajjMentor */ = {
 			isa = PBXGroup;
 			children = (
 				594015262112A93900258A36 /* HomeViewController.swift */,
 				5940152A2112AEB200258A36 /* Haji.swift */,
+				5940152D2113648200258A36 /* GroupListViewControllerTableViewController.swift */,
 			);
 			path = HajjMentor;
 			sourceTree = "<group>";
@@ -67,6 +95,8 @@
 		596CD78A2111FFD900E4D9E9 /* hajhacthon */ = {
 			isa = PBXGroup;
 			children = (
+				5914E9E42113B0DA00963EBD /* HajMode */,
+				5914E9DA2113911D00963EBD /* Management */,
 				5940152C21134F6500258A36 /* HajjMentor */,
 				596CD78B2111FFD900E4D9E9 /* AppDelegate.swift */,
 				596CD7912111FFDA00E4D9E9 /* Main.storyboard */,
@@ -74,6 +104,7 @@
 				596CD7962111FFDA00E4D9E9 /* LaunchScreen.storyboard */,
 				596CD7992111FFDA00E4D9E9 /* Info.plist */,
 				594015282112A9F300258A36 /* MapViewController.swift */,
+				5914E9E22113AF1800963EBD /* MainViewController.swift */,
 			);
 			path = hajhacthon;
 			sourceTree = "<group>";
@@ -154,6 +185,11 @@
 				594015292112A9F300258A36 /* MapViewController.swift in Sources */,
 				594015272112A93900258A36 /* HomeViewController.swift in Sources */,
 				5940152B2112AEB200258A36 /* Haji.swift in Sources */,
+				5940152E2113648200258A36 /* GroupListViewControllerTableViewController.swift in Sources */,
+				5914E9E0211393EA00963EBD /* Motwaf.swift in Sources */,
+				5914E9DE2113922500963EBD /* MotawafListTableViewController.swift in Sources */,
+				5914E9E32113AF1800963EBD /* MainViewController.swift in Sources */,
+				5914E9E62113B10C00963EBD /* MentorMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

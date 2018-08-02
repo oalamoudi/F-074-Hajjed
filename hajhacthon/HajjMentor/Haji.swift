@@ -14,5 +14,7 @@ class Haji: NSObject {
     var id = "0"
     var location: CLLocationCoordinate2D = CLLocationCoordinate2D.init()
     var timestamp: Date?
-
+    var nationality = ""
+    var passportno = ""
+    var name = ""
 }
