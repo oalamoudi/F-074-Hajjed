@@ -2,7 +2,7 @@
 HajjHackathon
 
 ## How to navigate this repo
-- [Backend Branch](blob/hashed-backend)
+- [Backend Branch](/blob/hashed-backend)
 - [IOS Application Branch]()
 - [Frontend Branch]()
 
