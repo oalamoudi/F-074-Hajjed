@@ -7,6 +7,9 @@ HajjHackathon
 - [IOS Application Branch](https://github.com/oalamoudi/F-074-Hajjed/tree/ios)
 - [Frontend Branch](https://github.com/oalamoudi/F-074-Hajjed/tree/frontend)
 
+## Hajjed ( Hajj Hashed )
+a real-time crowd management solution to manage and optimize the crowd of Hajj pilgrimage.
+
 ## Inspiration
 It was two ideas that started HAJJED adventure: Locating and guiding. The most important need for the pilgrim is how to locate his/her location and guide him/her to the right destination. After many brainstorming sessions that started with a screenboard to workflows, it finally leads to the eventual evolution of the HAJJED to create a platform for the purpose of helping the pilgrim and the campaign guide by using an application and wristband for the purpose of locating and guiding. With teammates: Mohammed Alsolami, Omar Alamoudi, Shoaib Ahmed, Marwan Ayman, and ... , Hajjed started forming and growing with every added idea.
 
@@ -27,3 +30,4 @@ We learned the critical and valuable lesson without any catastrophes about crowd
 
 ## What's next for F-074-Hajjed
 We are planning to provide the idea and the project to the responsible for the Hajj and update the need to add on more features such as notifications by voices in multi languages and built-in stations for individual requests based on random locations in Makkah.
+
