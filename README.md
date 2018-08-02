@@ -1,5 +1,11 @@
 # F-074-Hajjed
 HajjHackathon
+
+## How to navigate this repo
+- [Backend Branch]()
+- [IOS Application Branch]()
+- [Frontend Branch]()
+
 ## Inspiration
 It was two ideas that started HAJJED adventure: Locating and guiding. The most important need for the pilgrim is how to locate his/her location and guide him/her to the right destination. After many brainstorming sessions that started with a screenboard to workflows, it finally leads to the eventual evolution of the HAJJED to create a platform for the purpose of helping the pilgrim and the campaign guide by using an application and wristband for the purpose of locating and guiding. With teammates: Mohammed Alsolami, Omar Alamoudi, Shoaib Ahmed, Marwan Ayman, and ... , Hajjed started forming and growing with every added idea.
 
